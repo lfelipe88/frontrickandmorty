@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  apirick:
+    build: .
+    image: mi-imagen-angular:1.0
+    container_name: contenedor-rickandmorty
+    ports:
+      - "4600:80"
+    volumes:
+      - .:/app
+      - /app/node_modules
