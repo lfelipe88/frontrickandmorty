@@ -1,3 +1,40 @@
+# Salida de compilación
+/dist/
+/tmp/
+/out-tsc/
+/bazel-out/
 
-node_modules
-.vercel
+# Dependencias
+/node_modules/
+
+# Carpetas generadas por herramientas
+/.angular/cache/
+/coverage/
+/test-output/
+/reports/
+
+# Archivos de registro
+npm-debug.log*
+yarn-error.log*
+testem.log
+
+# Archivos de configuración del entorno
+/src/environments/.env*
+/src/environments/*.local.ts
+
+# Archivos y carpetas del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos generados por editores de código
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos específicos de Visual Studio Code (opcional)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
